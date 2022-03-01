@@ -1,0 +1,65 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+webserver.py	../webserver.py	1;"	kind:file	line:1
+socket	../webserver.py	/^import socket$/;"	kind:namespace	line:1
+listen_socket	../webserver.py	/^listen_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)$/;"	kind:variable	line:5
+request	../webserver.py	/^    request = client_connection.recv(1024)$/;"	kind:variable	line:18
+ascii.py	../ascii.py	1;"	kind:file	line:1
+sys	../ascii.py	/^import sys, random, argparse$/;"	kind:namespace	line:1
+random	../ascii.py	/^import sys, random, argparse$/;"	kind:namespace	line:1
+argparse	../ascii.py	/^import sys, random, argparse$/;"	kind:namespace	line:1
+np	../ascii.py	/^import numpy as np$/;"	kind:namespace	line:2
+math	../ascii.py	/^import math$/;"	kind:namespace	line:3
+Image	../ascii.py	/^from PIL import Image$/;"	kind:namespace	line:4
+gscale1	../ascii.py	/^gscale1 = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft\/\\|()1{}[]?-_+~<>i!lI;:,\\"^`'. "$/;"	kind:variable	line:7
+gscale2	../ascii.py	/^gscale2 = '@%#*+=-:. '$/;"	kind:variable	line:9
+getAverageGrayScale	../ascii.py	/^def getAverageGrayScale(image):$/;"	kind:function	line:11
+convertImageIntoAscii	../ascii.py	/^def convertImageIntoAscii(fileName, cols, scale, moreLevels):$/;"	kind:function	line:21
+main	../ascii.py	/^def main():$/;"	kind:function	line:87
+lists.py	../challenges/lists.py	1;"	kind:file	line:1
+a	../challenges/lists.py	/^a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]$/;"	kind:variable	line:1
+b	../challenges/lists.py	/^b = []$/;"	kind:variable	line:3
+stringsLists.py	../challenges/stringsLists.py	1;"	kind:file	line:1
+word	../challenges/stringsLists.py	/^word = input("Type a word to check if it's a palindrome: ")$/;"	kind:variable	line:1
+a	../challenges/stringsLists.py	/^a = []$/;"	kind:variable	line:3
+b	../challenges/stringsLists.py	/^b = a[::-1]$/;"	kind:variable	line:7
+characterInput.py	../challenges/characterInput.py	1;"	kind:file	line:1
+datetime	../challenges/characterInput.py	/^import datetime$/;"	kind:namespace	line:1
+name	../challenges/characterInput.py	/^name = input("What's your name: ")$/;"	kind:variable	line:3
+age	../challenges/characterInput.py	/^age = int(input("How old are you: "))$/;"	kind:variable	line:5
+years	../challenges/characterInput.py	/^years = 100 - age$/;"	kind:variable	line:7
+now	../challenges/characterInput.py	/^now = datetime.datetime.now()$/;"	kind:variable	line:8
+currentYear	../challenges/characterInput.py	/^currentYear = now.year$/;"	kind:variable	line:9
+listoverlap.py	../challenges/listoverlap.py	1;"	kind:file	line:1
+a	../challenges/listoverlap.py	/^a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]$/;"	kind:variable	line:1
+b	../challenges/listoverlap.py	/^b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]$/;"	kind:variable	line:2
+c	../challenges/listoverlap.py	/^c = []$/;"	kind:variable	line:3
+julia sets.py	../julia sets.py	1;"	kind:file	line:1
+Image	../julia sets.py	/^from PIL import Image$/;"	kind:namespace	line:1
+bitmap	../julia sets.py	/^    bitmap = Image.new("RGB", (w, h), "white")$/;"	kind:variable	line:9
+pix	../julia sets.py	/^    pix = bitmap.load()$/;"	kind:variable	line:11
+MaxIter	../julia sets.py	/^    MaxIter = 255$/;"	kind:variable	line:16
+zx	../julia sets.py	/^            zx = 1.5*(x - w\/2)\/(0.5*zoom*w) + moveX$/;"	kind:variable	line:20
+zy	../julia sets.py	/^            zy = 1.0*(y - h\/2)\/(0.5*zoom*h) + moveY$/;"	kind:variable	line:21
+i	../julia sets.py	/^            i = MaxIter$/;"	kind:variable	line:22
+tmp	../julia sets.py	/^                tmp = zx*zx - zy*zy + cX$/;"	kind:variable	line:24
+webscraper.py	../webscraper.py	1;"	kind:file	line:1
+get	../webscraper.py	/^from requests import get$/;"	kind:namespace	line:1
+RequestException	../webscraper.py	/^from requests.exceptions import RequestException$/;"	kind:namespace	line:2
+closing	../webscraper.py	/^from contextlib import closing$/;"	kind:namespace	line:3
+BeautifulSoup	../webscraper.py	/^from bs4 import BeautifulSoup$/;"	kind:namespace	line:4
+simple_get	../webscraper.py	/^def simple_get(url):$/;"	kind:function	line:6
+is_good_response	../webscraper.py	/^def is_good_response(resp):$/;"	kind:function	line:23
+log_error	../webscraper.py	/^def log_error(e):$/;"	kind:function	line:34
+frac test.py	../frac test.py	1;"	kind:file	line:1
+pygame	../frac test.py	/^import pygame, math$/;"	kind:namespace	line:1
+math	../frac test.py	/^import pygame, math$/;"	kind:namespace	line:1
+surface_size	../frac test.py	/^surface_size = 520$/;"	kind:variable	line:4
+main_surface	../frac test.py	/^main_surface = pygame.display.set_mode((surface_size,surface_size))$/;"	kind:variable	line:6
+my_clock	../frac test.py	/^my_clock = pygame.time.Clock()$/;"	kind:variable	line:7
+draw_tree	../frac test.py	/^def draw_tree(order, theta, sz, posn, heading, color=(0,0,0), depth=0):$/;"	kind:function	line:10
+gameloop	../frac test.py	/^def gameloop():$/;"	kind:function	line:33
